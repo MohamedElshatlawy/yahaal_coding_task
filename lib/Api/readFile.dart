@@ -1,7 +1,9 @@
 import 'dart:async' show Future;
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:yahaal_task/Data/constant.dart';
+
 import 'package:yahaal_task/model/userModel.dart';
+
+import '../constant.dart';
 
 
 Future<String> loadAsset() async {

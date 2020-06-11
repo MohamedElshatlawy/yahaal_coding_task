@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:yahaal_task/Api/readFile.dart';
-import 'package:yahaal_task/model/constant.dart';
 
+import '../constant.dart';
 import 'home.dart';
 
 class SplashScreen extends StatefulWidget {

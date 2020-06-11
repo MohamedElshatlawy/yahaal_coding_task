@@ -4,10 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:yahaal_task/Api/distanceCalculator.dart';
 
-import 'package:yahaal_task/model/constant.dart';
 import 'package:yahaal_task/model/genderEnum.dart';
 import 'package:yahaal_task/model/userModel.dart';
 import 'package:yahaal_task/view/ModalBottom.dart';
+
+import '../constant.dart';
 
 class HomeScreen extends StatefulWidget {
   List<UserModel> users;
